@@ -1,0 +1,17 @@
+let myName = 'Dany'.toLowerCase()
+//adding this because it's a great way to introduce myself. 
+
+let myAge = 30;
+//I'm old for the internet
+myAge = (30 - 2);
+//since the first 2 years are already accounted for. So, this should be 28. 
+
+let earlyYears = (2*10.5);
+// first two years of a dogs life as 10.5 dog years. I'm definitely older than 2 ha ha!
+
+let laterYears = (myAge * 4);
+//The laters years are multiplied by 4
+
+let myAgeInDogYears = (earlyYears + laterYears);
+//Add the two!
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
