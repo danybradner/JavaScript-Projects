@@ -1,0 +1,24 @@
+/*Deep in his mountain-side meteorology lab, the mad scientist Kelvin has mastered weather prediction.
+
+Recently, Kelvin began publishing his weather forecasts on his website. However there's a problem: All of his forecasts describe the temperature in Kelvin.
+
+With our knowledge of JavaScript, let's convert Kelvin to Celsius, then to Fahrenheit.*/
+
+
+
+
+let Kelvin = 293;
+/*I assigned kelvin to 293. 
+I need to convert it to celcius first.*/
+
+let Celsius = Kelvin - 273;
+// should equal to 20
+
+let Newton = Math.floor(Celsius *(33/100))
+//added .floor() method Math to round down the temp.
+
+let Fahrenheit = Math.floor ((Celsius * (9/5)) + 32);
+//added .floor() method Math to round down the temp.
+
+console.log (`When Kelvin is ${Kelvin} than it is ${Fahrenheit} Fahrenheit and ${Newton} Newton`)
+//Answer should be: When Kelvin is 293 than it is 68 Fahrenheit and 6 Newton
