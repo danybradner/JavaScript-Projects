@@ -1,0 +1,194 @@
+/* 
+
+THIS IS A WORK IN PROGRESS!!!!
+
+I want to be able to create a game that will pick random moves,
+the goal is help students create combos in their own style,
+it's also to help freestyling.
+Things  I need to consider: 
+1. Level of student in pole.
+2. Add a challenge in emotion
+3. add a movement. Example: add a "twizzle if possible,""use arms", "use head" 
+4. create a modified variation of easy, medium, hard, expert mode */
+
+
+
+let name = 'Dany';
+console.log (`Hello ${name}`);
+
+let techlevel = 2;
+
+
+
+const randomNumber = 
+Math.floor(Math.random()*33);
+let beginner='';
+switch (randomNumber){
+    case 0: 
+   beginner = '90 floor turn';
+      break;
+    case 1:
+    beginner = 'A Frame facing the pole';
+       break;
+    case 2:
+    beginner = 'A frame facing away the pole';
+       break;
+    case 3:
+    beginner= 'Back arch';
+       break;
+    case 4: 
+    beginner = 'Back Hook Spin';
+       break;
+    case 5: 
+    beginner = 'Backslide (one leg extended)';
+       break;
+    case 6: 
+    beginner = 'Backwards Pole Switch';
+       break;
+    case 7: 
+    beginner = 'Ballet Hook';
+      break;
+   case 8:
+   beginner = 'Basic Fireman'
+   break;
+   case 9:
+   beginner = 'Body Wave'
+   break;
+   case 10:
+   beginner = 'Bounce to Sidestep'
+   break;
+   case 11:
+   beginner = 'Cat Crawl'
+   break;
+   case 12:
+   beginner = 'crucifix'
+   break;
+   case 13:
+   beginner = 'Dip to Wrap Around'
+   break;
+   case 14:
+   beginner = 'Eternal Pole Walks'
+   break;
+   case 15:
+   beginner = 'Figure of Eight'
+   break;
+   case 16:
+   beginner = 'Fireman Spin Crossed Leg Closed'
+   break;
+   case 17:
+   beginner = 'Floor Back Arch'
+   break;
+   case 18:
+   beginner = 'Floor Fan'
+   break;
+   case 19:
+   beginner = 'Floor inversion'
+   break;
+   case 20:
+   beginner = 'Floor star'
+   break;
+   case 21:
+   beginner = 'Forwards Body Slide'
+   break;
+   case 22:
+   beginner = 'Forwards Pole Switch'
+   break;
+   case 23:
+   beginner = 'ground Shoulder Mount'
+   break;
+   case 24:
+   beginner = 'High Hand Piroutte (once handed)'
+   break;
+   case 25:
+   beginner = 'High Hand Piroutte (two handed)'
+   break;
+   case 26:
+   beginner = 'Hip circles'
+   break;
+   case 27:
+   beginner = 'Knee Circles'
+   break;
+   case 28:s
+   beginner = 'Lateral Stretch'
+   break;
+   case 29:
+   beginner = 'Log Roll'
+   break;
+   case 30:
+   beginner = 'Model Pose'
+   break;
+   case 31:
+   beginner = 'Piroutte (elbow grip)'
+   break;
+   case 32:
+   beginner = 'Pole Walk'
+   break;
+
+  }
+
+  const level1Number = 
+  Math.floor(Math.random()*8);
+  let tech1='';
+  switch (level1Number){
+      case 0: 
+      tech1 = '180 floor turn';
+        break;
+      case 1:
+      tech1 = 'ball';
+         break;
+      case 2:
+      tech1  = 'cross knee sit';
+         break;
+      case 3:
+      tech1= 'Hello Boys';
+         break;
+      case 4: 
+      tech1  = 'ground invert';
+         break;
+      case 5: 
+      tech1 = 'corkscrew spin';
+         break;
+      case 6: 
+      tech1 = 'cartwheel spin';
+         break;
+      case 7: 
+      tech1 = 'climb';
+        break;
+    }
+    
+const moreRandom = 
+Math.floor(Math.random()*6);
+let bonus='';
+switch (moreRandom){
+    case 0: 
+    bonus = 'add spirit fingers';
+      break;
+    case 1:
+    bonus = 'make it fabolous';
+       break;
+    case 2:
+    bonus = 'add an twizzle';
+       break;
+    case 3:
+    bonus = 'use your opposite side';
+       break;
+    case 4: 
+    bonus = 'make it happy';
+       break;
+    case 5: 
+    bonus = 'make it sad';
+       break;
+  }
+
+if (techlevel = 0 ) {
+  console.log (`Hey, try to do ${beginner}, ${beginner}, and then try to ${bonus}`);
+}
+else if(techlevel = 1) {
+  console.log (`Hey, try to do ${beginner}, ${tech1}, and then try to ${bonus}`);
+}
+else if(techlevel > 1) {
+  console.log (`Hey, try to do ${tech1}, ${tech1}, and then try to ${bonus}`);
+}
+else {
+console.log(`Make it all up!`);  
+}
