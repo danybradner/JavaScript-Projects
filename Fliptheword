@@ -1,0 +1,10 @@
+let word="viral";
+
+function flipit (){
+word = word.split(""); //convert 'viral' to array
+word = word.reverse(); //reverse 'viral' order 
+word = word.join(""); 
+console.log (word);
+};
+
+flipit(); //should get lariv
